@@ -97,6 +97,51 @@ function registerDevice(element) {
         tilt_max: 100,
       }
       break
+          case 22:
+      model = 'Vertical awning'
+      payload = {
+        ...base_payload,
+        device: {
+          ...base_device,
+          model: model
+        },
+        position_open: 0,
+        position_closed: 100,
+        command_topic: 'warema/' + element.snr + '/set',
+        position_topic: 'warema/' + element.snr + '/position',
+        set_position_topic: 'warema/' + element.snr + '/set_position',
+      }
+      break
+          case 23:
+      model = 'Vertical awning'
+      payload = {
+        ...base_payload,
+        device: {
+          ...base_device,
+          model: model
+        },
+        position_open: 0,
+        position_closed: 100,
+        command_topic: 'warema/' + element.snr + '/set',
+        position_topic: 'warema/' + element.snr + '/position',
+        set_position_topic: 'warema/' + element.snr + '/set_position',
+      }
+      break
+          case 24:
+      model = 'Vertical awning'
+      payload = {
+        ...base_payload,
+        device: {
+          ...base_device,
+          model: model
+        },
+        position_open: 0,
+        position_closed: 100,
+        command_topic: 'warema/' + element.snr + '/set',
+        position_topic: 'warema/' + element.snr + '/position',
+        set_position_topic: 'warema/' + element.snr + '/set_position',
+      }
+      break
     case 25:
       model = 'Vertical awning'
       payload = {
